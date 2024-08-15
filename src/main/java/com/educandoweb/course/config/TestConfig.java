@@ -1,4 +1,4 @@
-package config;
+package com.educandoweb.course.config;
 
 import java.util.Arrays;
 
@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 import com.educandoweb.course.entities.User;
+import com.educandoweb.course.repositories.UserRepository;
 
-import repositories.UserRepository;
 
 @Configuration
 @Profile("test")
